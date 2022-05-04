@@ -1,6 +1,5 @@
 # Dashboard Widgets
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/ewuweblab/dashboard-widgets/"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
 
 ## What Is This?
 The concept of a Dashboard appears nearly everywhere. Most obvious are car dashboards with displays of speed, mileage, and navigation. Less obvious examples are: the FaceBook banner with notifications, informational displays in lobbies, and “widgets” on iOS and Android. A portion of a larger display is a widget.
