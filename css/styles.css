@@ -1,0 +1,68 @@
+/* Grid */
+.layout {
+  /* Set your own grid   */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 400px;
+  grid-column-gap: 1em;
+}
+
+/* Widgets */
+section {
+  background: lightgray;
+  padding: 1em;
+  
+  /* Relative Parent. Absolute Child */
+  position: relative;
+}
+
+/* Time */
+.time {
+}
+
+.hours {
+}
+
+.minutes {
+}
+
+.seconds {
+}
+
+.amOrPM {
+  
+}
+
+/* Date */
+.date {
+  
+}
+
+.month {
+}
+
+.dayOfMonth {
+}
+
+.year {
+}
+
+.dayOfWeek {
+}
+
+/* Weather */
+.weather {
+  
+}
+
+.city {
+  
+}
+
+.temp {
+  
+}
+
+.weather img {
+  
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicons/site.webmanifest" />
+
+    <!-- Normalize CSS Base -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <!-- My Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- My Scripts -->
+    <script defer src="js/time.js"></script>
+    <script defer src="js/date.js"></script>
+    <script defer src="js/weather.js"></script>
+  </head>
+  <body>
+    <main class="layout">
+      <!-- Time -->
+      <section class="time">
+        <h1>Time</h1>
+        <time>
+          <data class="hours">HH</data> : <data class="minutes">MM</data> :
+          <data class="seconds">SS</data>
+          <data class="amOrPM">AM/PM</data>
+        </time>
+      </section>
+
+      <!--  Date -->
+      <section class="date">
+        <h1>Date</h1>
+        <time>
+          <data class="month">Month</data>
+          <data class="dayOfMonth">00</data>, <data class="year">0000</data> -
+          <data class="dayOfWeek">SMTWTFS</data>
+        </time>
+      </section>
+
+      <!-- Weather -->
+      <section class="weather">
+        <!--
+      <h1>Weather</h1>
+      <data value="" class="city">City</data>
+      <data value="" class="temp">Temp</data>
+      <img src="https://via.placeholder.com/150" alt="Placeholder">
+     -->
+      </section>
+    </main>
+  </body>
+</html>
